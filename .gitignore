@@ -1,0 +1,13 @@
+/core/node_modules
+/core/vendor
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+web.config
+.htaccess
+index.php
+/.idea
+/.vscode
