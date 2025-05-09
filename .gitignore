@@ -1,5 +1,7 @@
 /core/node_modules
 /core/vendor
+/core/public
+/core/.env
 .phpunit.result.cache
 docker-compose.override.yml
 Homestead.json
