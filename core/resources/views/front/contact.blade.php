@@ -33,8 +33,8 @@
         <section class="widget widget-featured-posts card rounded p-4 ">
           <h3 class="widget-title padding-bottom-1x">{{__('Working Days')}}</h3>
           <ul class="list-unstyled text-sm">
-            <li><span class="text-muted">{{__('Monday-Friday')}}:</span>{{$setting->friday_start}} - {{$setting->friday_end}}</li>
-            <li><span class="text-muted">{{__('Saturday')}}:</span>{{$setting->satureday_start}} - {{$setting->satureday_end}}</li>
+            <li><span class="text-muted">{{__('Thursday-Tuesday')}}:</span>{{$setting->friday_start}} - {{$setting->friday_end}}</li>
+            <li><span class="text-muted">{{__('Wednesday')}}:</span>{{$setting->satureday_start}} - {{$setting->satureday_end}}</li>
           </ul>
           
         </section>
