@@ -565,9 +565,9 @@
 
                                                                     <div class="col-lg-6">
                                                                         <div class="form-group">
-                                                                            <label for="friday_start">{{ __('Monday-Friday from') }} *</label>
+                                                                            <label for="friday_start">{{ __('Thursday-Tuesday from') }} *</label>
                                                                             <input type="text" name="friday_start" class="form-control timepicker" id="friday_start"
-                                                                                placeholder="{{ __('Monday-Friday from') }}" value="{{ $setting->friday_start }}" >
+                                                                                placeholder="{{ __('Thursday-Tuesday from') }}" value="{{ $setting->friday_start }}" >
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-6">
@@ -579,9 +579,9 @@
                                                                     </div>
                                                                     <div class="col-lg-6">
                                                                         <div class="form-group">
-                                                                            <label for="satureday_start">{{ __('Saturday-Sunday from') }} *</label>
+                                                                            <label for="satureday_start">{{ __('Wednesday from') }} *</label>
                                                                             <input type="text" name="satureday_start" class="form-control timepicker" id="satureday_start"
-                                                                                placeholder="{{ __('Saturday-Sunday from') }}" value="{{ $setting->satureday_start }}" >
+                                                                                placeholder="{{ __('Wednesday from') }}" value="{{ $setting->satureday_start }}" >
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-6">
